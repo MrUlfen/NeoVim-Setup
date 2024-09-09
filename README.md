@@ -1,10 +1,13 @@
 # NeoVim-Setup
 
-1. install neovim from this link httpsgithub.comneovimneovimblobmasterINSTALL.md
+1. install neovim from this link https://github.comneovimneovimblobmasterINSTALL.md
+
 2. or you can install Chocolatey (witch is recomanded -- its basicly a package downlaoder you can also install NEOVIM that way by tying (-- choco install neovim --) ) by opening windows PowerShell in ADministrator mode and enter this and folow the steps Yes To ALL
 3.  ( here is the thing you put in PowerShel) --- Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]SecurityProtocol = [System.Net.ServicePointManager]SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('httpscommunity.chocolatey.orginstall.ps1'))
-4. install git and folow the install instructions (link) --- httpsgit-scm.comdownloads
-5. install nerfonts the one i use is called Caskaydia Mono NerdFont (Link) --- httpswww.nerdfonts.comfont-downloads --- (( this is for some plugins and its recuired after its installed go in to Command Prompt and powershell and or you can click the wheel cog
+
+4. install git and folow the install instructions (link) --- https://git-scm.comdownloads
+
+5. install nerfonts the one i use is called Caskaydia Mono NerdFont (Link) --- https://www.nerdfonts.comfont-downloads --- (( this is for some plugins and its recuired after its installed go in to Command Prompt and powershell and or you can click the wheel cog
    and scrol down and open appearance in the FONT FACE choose the newly instaled caskaydia nerd font on both Command Prompt and powershell.
 6. before booting up NeoVim you need to add neovim to system variable or user variable -- to do this go down left corner to the search bar search for
    environment variables after that i presume you dont have acces to edit system variables so on top in user vasrtiables klick on the one that says PATH and click edit now iwant you to check if there already is a name that has neovim i nther if yes you can
